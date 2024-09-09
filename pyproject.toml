@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "amazonproductsearch"
+version = "0.1.0"
+description = "This is a English/Multi-Lingual Hybrid Product Search( Semantic and Syntactic) Application using Amazon's ESCI dataset involving Pinecone vectorDB , English/Multi Lingual Embedding(especially Voyage Embedding) , Pinecone Hybrid Search , Reranking and Evalation of recommnedation scores on hit_rate@N , hits@N , precision@N , recall@N , f1@N , mrr"
+authors = ["Axel Blaze <pradeepy121@gmail.com>"]
+license = "Apache-2.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
